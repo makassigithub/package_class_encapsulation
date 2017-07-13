@@ -10,13 +10,13 @@ public class SamePackageNonSubclass {
 	// a non-subclass can access a public member through an encapsulation
 	System.out.println("SamePackageNonSubclass_public_x = " + ic.public_x);
 	
-	// a non-subclass of the  can access a default member through an encapsulation
+	// a non-subclass of the same package can access a default member through an encapsulation
 	System.out.println("SamePackageNonSubclass_default_x = " + ic.default_x);
 	
-	// a non-subclass of the  can access a protected member through an encapsulation
+	// a non-subclass of the same package can access a protected member through an encapsulation
 	System.out.println("SamePackageNonSubclass_protected_x = " + ic.protected_x);
 	
-	// Unless methods are provided(setters/getters) private members aren't accessible outside de class
+	// Unless methods are provided(setters/getters) private members aren't accessible outside the class
 	//System.out.println("private_x = " + private_x);
 		
 	}
